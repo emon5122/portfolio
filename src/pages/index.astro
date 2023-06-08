@@ -1,10 +1,11 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Test from "../components/test"
 ---
 
 <Layout title="Welcome to Astro.">
     <main>
-		<a href="/about">About</a>
-        <p>Hi</p>
+		<a href="/about" class="bg-slate-600">About</a>
+        <Test client:visible/>
     </main>
 </Layout>
